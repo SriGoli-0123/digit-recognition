@@ -66,3 +66,6 @@ This project implements a digit recognition system using a Convolutional Neural 
     # Make predictions
     python src/predict.py
 
+### Result
+
+20 epochs, Accuracy: 99.33% on MNIST dataset
