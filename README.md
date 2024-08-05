@@ -31,12 +31,17 @@ This project implements a digit recognition system using a Convolutional Neural 
    ```sh
    pip install -r requirements.txt
 
-3. Train the model:
+3. Load the dataset:
+
+   ```sh
+   python src/data_loader.py
+   
+4. Train the model:
 
    ```sh
    python src/train.py
 
-4. Make predictions:
+5. Make predictions:
 
    ```sh
    python src/predict.py
